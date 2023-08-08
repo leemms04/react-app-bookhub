@@ -1,6 +1,35 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/leemms04/react-app-bookhub">
+    <img src="documents/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+<h3 align="center">project_title</h3>
+
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+  </p>
+</div>
+
+# Bookhub
+
+![books](https://github.com/leemms04/react-app-bookhub/assets/141570206/5a02e88e-377b-4a52-af21-824eef0b4477)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+Bookhub is a simple reading list website with a client and server architecture. Users can search for books, create booklogs, and store them in personal book lists. 
+
+
 
 ## Available Scripts
 
