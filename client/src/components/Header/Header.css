@@ -1,0 +1,15 @@
+.header-content{
+    min-height: 75vh;
+    background: linear-gradient(rgba(150, 200, 179, 0.4), rgba(150, 200, 179, 0.4)), url("../../images/wallpaper.jpeg") center/cover no-repeat;
+    flex-direction: column;
+}
+.header-title{
+    margin-top: 10rem;
+    font-size: 4.2rem;
+}
+.header-text{
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+}

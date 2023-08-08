@@ -1,0 +1,80 @@
+.booklist, .book-details{
+    padding: 3rem 0;
+    background-color: #97c8b7;
+}
+.booklist-content{
+    gap: 3rem;
+}
+.book-item{
+    padding: 3rem 2rem;
+    border-radius: 4px;
+    background-color: #eaf4f0;
+    box-shadow: rgba(151, 200, 183, 0.03) 0px 5px 15px 0px;
+    transition: var(--transition);
+}
+.book-item:hover{
+    box-shadow: rgba(151, 200, 183, 0.10) 0px 5px 15px 0px;
+}
+.book-item-img img{
+    max-width: 180px;
+    max-height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.book-item-info{
+    margin-top: 2rem;
+}
+.book-item-info-item.title{
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+}
+.book-item-info-item.author{
+    line-height: 1.4;
+    margin-bottom: 4px;
+}
+.book-item-info-item:not(.book-item-info-item.title) span:last-child{
+    opacity: 0.8;
+}
+.book-item-info-item.publish-year{
+    opacity: 0.6;
+    font-style: italic;
+    font-size: 14px;
+}
+.delete-btn{
+    margin: auto;
+    margin-top: 0.2rem;
+    padding: 14px 0px;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+.delete-btn:hover{
+    background: #e7e7e7;
+    color: var(--green-color);
+}
+
+/* show only two columns of books when screen width is >=600px */
+@media screen and (min-width: 600px){
+    .booklist-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* show three columns of books when screen width is >=992px */
+@media screen and (min-width: 992px){
+    .booklist-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .book-item-img img{
+        max-width: 150px;
+    }
+}
+
+/* show four smaller columns of books when screen width is >=992px */
+@media screen and (min-width: 992px){
+    .booklist-content{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .book-item-img img{
+        max-width: 120px;
+    }
+}
