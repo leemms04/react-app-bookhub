@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/leemms04/react-app-bookhub">
-    <img src="logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 
@@ -22,8 +22,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 BookHub is a personal project based on a client-server architecture. The frontend is made using React and backend is made using NodeJS. The app uses the Open Library API to fetch book data and implement search features. Users can search up books, record dates, ratings, and reviews, and add booklogs to a book list.
 
@@ -80,12 +78,41 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+<!-- SCREENSHOTS -->
+## Project Example
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<br />
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<div align="center">
+  <img src="images/home_screen.png" alt="Logo" width="800" height="400">
+  <br />
+</div>
+
+<br />
+
+This is the main home page of the app with a header linked to the home page, book list page, and about page.
+
+<br />
+
+<div align="center">
+  <img src="images/search_result.png" alt="Logo" width="800" height="400">
+  <br />
+</div>
+
+<br />
+
+The search bar allows users to search up books. The search result shows 20 books at a time to prevent lag.
+
+<br />
+
+<div align="center">
+  <img src="images/edit_page.jpg" alt="Logo" width="800" height="400">
+  <br />
+</div>
+
+<br />
+
+Users can add and edit their book logs in detail, including the start and end dates, a star rating, and a written review. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +121,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Open Library API]([https://choosealicense.com](https://openlibrary.org/developers/api))
+* [Open Library API](https://openlibrary.org/developers/api)
 * [GitHub Pages](https://pages.github.com)
 * [React-Dates](https://www.npmjs.com/package/react-dates)
 * [React-Stars](https://www.npmjs.com/package/react-stars)
