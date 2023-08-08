@@ -1,36 +1,46 @@
+<a name="readme-top"></a>
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/leemms04/react-app-bookhub">
-    <img src="documents/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
 
-<h3 align="center">project_title</h3>
+<h3 align="center">BookHub</h3>
 
   <p align="center">
-    project_description
+    A book log website with search features.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/leemms04/react-app-bookhub"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/leemms04/react-app-bookhub/issues">Report Bug</a>
   </p>
 </div>
 
-# Bookhub
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-![books](https://github.com/leemms04/react-app-bookhub/assets/141570206/5a02e88e-377b-4a52-af21-824eef0b4477)
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
-Bookhub is a simple reading list website with a client and server architecture. Users can search for books, create booklogs, and store them in personal book lists. 
+BookHub is a personal project based on a client-server architecture. The frontend is made using React and backend is made using NodeJS. The app uses the Open Library API to fetch book data and implement search features. Users can search up books, record dates, ratings, and reviews, and add booklogs to a book list.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
+### Built With
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- AVAILABLE SCRIPTS -->
 ## Available Scripts
 
 In the project directory, you can run:
@@ -38,7 +48,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) for the client side, and open [http://localhost:8000](http://localhost:8000) for the server side.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
@@ -68,32 +78,37 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- USAGE EXAMPLES -->
+## Usage
 
-### Code Splitting
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+_For more examples, please refer to the [Documentation](https://example.com)_
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 
-### Advanced Configuration
+* [Open Library API]([https://choosealicense.com](https://openlibrary.org/developers/api))
+* [GitHub Pages](https://pages.github.com)
+* [React-Dates](https://www.npmjs.com/package/react-dates)
+* [React-Stars](https://www.npmjs.com/package/react-stars)
+* [React-Datepicker](https://www.npmjs.com/package/react-datepicker)
+* [React Icons](https://react-icons.github.io/react-icons/search)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
